@@ -1,0 +1,23 @@
+parent.0 = @ec.gp.koza.KozaFitness koza.params
+# the next four items are already defined in koza.params, but we
+# put them here to be clear.
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+# We have five functions in the function set.  They are:
+gp.fs.0.size = 5
+gp.fs.0.func.0 = app.tutorial4.X
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = app.tutorial4.Y
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = app.tutorial4.Add
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = app.tutorial4.Sub
+gp.fs.0.func.3.nc = nc2
+gp.fs.0.func.4 = app.tutorial4.Mul
+gp.fs.0.func.4.nc = nc2
+eval.problem = app.tutorial4.MultiValuedRegression
+#automatically loaded GPdata via this parameter among GPNodes
+eval.problem.data = app.tutorial4.DoubleData
