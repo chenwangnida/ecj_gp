@@ -22,7 +22,6 @@ gp.fs.0.func.4 = app.tutorial4.Mul
 gp.fs.0.func.4.nc = nc2
 
 eval.problem = app.tutorial4.MultiValuedRegression
-init         = app.tutorial4.Initilializer
 
 #automatically loaded GPdata via this parameter among GPNodes
 eval.problem.data = app.tutorial4.DoubleData

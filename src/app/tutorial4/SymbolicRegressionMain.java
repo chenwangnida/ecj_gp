@@ -1,9 +1,5 @@
 package app.tutorial4;
 
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
-
 import ec.EvolutionState;
 import ec.Evolve;
 import ec.gp.GPIndividual;
@@ -16,33 +12,8 @@ public class SymbolicRegressionMain {
 	/**
 	 * Field Declarations
 	 */
-	/** SPECT dataset name **/
-	public final static String SELECTED_DATASET = "selected";
-
-	/** Standard accuracy fitness function name **/
-	public final static String ACCURACY_FITNESS_FUNCTION = "accuracy";
-
-	/** Weighted-average fitness function name **/
-	public final static String WEIGHTED_FITNESS_FUNCTION = "average";
-
-	/** The standard classification method **/
-	public final static String STANDARD_METHOD = "standard_method";
-
-	/** The new classification method **/
-	public final static String NEW_METHOD = "new_method";
-
 	// Specify the random number generator (to be used as feature indexes)
 	public static MersenneTwisterFast RANDOM_GENERATOR;
-
-	// Specify the fitness function to be used (standard accuracy,
-	// weighted-average, or others)
-	public final static String FITNESS_FUNCTION = ACCURACY_FITNESS_FUNCTION;
-
-	// Specify the classification method (standard or the new method)
-	public final static String CLASSIFICATION = STANDARD_METHOD;
-
-	// Specify the dataset name to be used
-	public final static String DATASET_NAME = SELECTED_DATASET;
 
 	/**
 	 * The main method that starts and controls the main flow of the program
@@ -52,19 +23,23 @@ public class SymbolicRegressionMain {
 	public static void main(String[] args) {
 
 		// 1- Specify the parameter values of the Evolve main method
-		String[] params = new String[] { "-file", "parameters.params", "-p", "seed.0=0", "-p", "jobs=1" };
+		String[] params = new String[] { "-file", "parameters.params", "-p", "seed.0=0", "-p", "jobs=1", "-p",
+				"generations=0", "-p", "pop.subpop.0.species.pipe.source.0.prob=0.0", "-p",
+				"pop.subpop.0.species.pipe.source.1.prob=0.0" };
 
-		// 2- The array of seed values
-		int[] seeds = new int[] { 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, -3, -6, -12,
-				-24, -48, -96, -192, -384, -768, -1536, -3027, -6144, -12288, -24576, -49156 };
+		// 2- Initialize the folds variable's value
+		int seeds = 0;
+		int generation = 30;
+		double crossoverRate = 1.0;
+		double mutationRate = 1.0;
 
-		// 2- Start the main process of the program
-		// Specify the folds variable's value
-		int jobs = 30;
+		
+		// 3- Start the main process of the program
+		int jobs = 1;
 		for (int i = 0; i < jobs; i++) {
 
-			// Do NOT forget the seed value goes here
-			params[3] = "seed.0=" + seeds[i];
+			// Do NOT forget the parameters value goes here
+			passParameters(params, seeds, generation, crossoverRate, mutationRate);
 
 			// Construct and initialise a new EvolutionState object
 			EvolutionState state = Evolve.possiblyRestoreFromCheckpoint(params);
@@ -98,14 +73,8 @@ public class SymbolicRegressionMain {
 				// Get the best evolved program and print it out
 				GPIndividual bestIndividual = (GPIndividual) ((SimpleStatistics) state.statistics).best_of_run[0];
 
-				// Print out the accuracy on the training set of the best
-				// evolved program
-				state.output.message("The training accuracy: " + bestIndividual.fitness.fitnessToStringForHumans());
-
-				// Evaluate the best evolved program on the test set and
-				// get the result in a FitnessResult object
-				MultiValuedRegression problem = (MultiValuedRegression) (state.evaluator.p_problem);
-				problem.evaluate(state, bestIndividual, 0, 0);
+				// Print out the fitness of the best evolved program
+				state.output.message("The optimal fitness: " + bestIndividual.fitness.fitnessToStringForHumans());
 
 				// After evaluation, do not forget to clean up
 				Evolve.cleanup(state);
@@ -120,5 +89,13 @@ public class SymbolicRegressionMain {
 
 		}
 
+	}
+
+	private static void passParameters(String[] params, int seeds, int generation, double crossoverRate,
+			double mutationRate) {
+		params[3] = "seed.0=" + seeds;
+		params[7] = "generations=" + generation;
+		params[9] = "pop.subpop.0.species.pipe.source.0.prob=" + crossoverRate;
+		params[11] = "pop.subpop.0.species.pipe.source.1.prob=" + mutationRate;
 	}
 }
