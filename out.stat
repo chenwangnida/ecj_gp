@@ -3,45 +3,41 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.5678934653361615 Adjusted=0.6377984359961579 Hits=3
+Fitness: Standardized=0.8941297629545112 Adjusted=0.5279469334984604 Hits=1
 Tree 0:
- (+ (- (+ x y) (* x x)) (* (+ x x) (* y x)))
+\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=5.551115123125783E-17 Adjusted=1.0 Hits=10
+Fitness: Standardized=0.6704879454286213 Adjusted=0.5986274864997099 Hits=3
 Tree 0:
- (+ (+ y (* (- y (* y y)) x)) (* (+ x y) (*
-     x y)))
+\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=5.551115123125783E-17 Adjusted=1.0 Hits=10
+Fitness: Standardized=0.5723198735775284 Adjusted=0.6360029004306113 Hits=4
 Tree 0:
- (+ (+ y (* (- y (* y y)) x)) (* (+ x y) (*
-     x y)))
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=5.551115123125783E-17 Adjusted=1.0 Hits=10
+Fitness: Standardized=4.579669976578771E-16 Adjusted=0.9999999999999996 Hits=10
 Tree 0:
- (+ (+ y (* (- y (* y y)) x)) (* (+ x y) (*
-     x y)))
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=5.551115123125783E-17 Adjusted=1.0 Hits=10
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
 Tree 0:
- (+ (+ y (* (- y (* y y)) x)) (* (+ x y) (*
-     x y)))
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
 
 Generation: 5
 Best Individual:
@@ -49,11 +45,203 @@ Subpopulation 0:
 Evaluated: true
 Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
 Tree 0:
- (+ (* x (+ y (* x y))) y)
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
+Tree 0:
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{y}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\gpbox{x}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}}\end{bundle}}\end{bundle}
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
 Fitness: Standardized=0.0 Adjusted=1.0 Hits=10
 Tree 0:
- (+ (* x (+ y (* x y))) y)
+\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\begin{bundle}{\gpbox{*}}\chunk{\gpbox{y}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{-}}\chunk{\begin{bundle}{\gpbox{+}}\chunk{\gpbox{x}}\chunk{\gpbox{y}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\end{bundle}}\chunk{\gpbox{x}}\end{bundle}}\chunk{\gpbox{y}}\end{bundle}

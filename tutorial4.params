@@ -1,4 +1,6 @@
 parent.0 = @ec.gp.koza.KozaFitness koza.params
+
+seed.0                                         = 0
 # the next four items are already defined in koza.params, but we
 # put them here to be clear.
 # We have one function set, of class GPFunctionSet
@@ -18,6 +20,22 @@ gp.fs.0.func.3 = app.tutorial4.Sub
 gp.fs.0.func.3.nc = nc2
 gp.fs.0.func.4 = app.tutorial4.Mul
 gp.fs.0.func.4.nc = nc2
+
 eval.problem = app.tutorial4.MultiValuedRegression
+init         = app.tutorial4.Initilializer
+
 #automatically loaded GPdata via this parameter among GPNodes
 eval.problem.data = app.tutorial4.DoubleData
+#stat.do-time                                   = true
+#stat.do-final                                  = true
+
+generations                                    = 30
+pop.subpop.0.species.pipe.source.0.prob        = 0.8
+pop.subpop.0.species.pipe.source.1.prob        = 0.2
+
+
+# Use simple fitness, and do not quit run early
+#pop.subpop.0.species.fitness.maximize          = true
+quit-on-run-complete                           = false
+checkpoint		                               = false
+
