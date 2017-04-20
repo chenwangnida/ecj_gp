@@ -24,14 +24,15 @@ public class SymbolicRegressionMain {
 
 		// 1- Specify the parameter values of the Evolve main method
 		String[] params = new String[] { "-file", "parameters.params", "-p", "seed.0=0", "-p", "jobs=1", "-p",
-				"generations=0", "-p", "pop.subpop.0.species.pipe.source.0.prob=0.0", "-p",
+				"generations=51", "-p", "pop.subpop.0.size=1024", "-p", "pop.subpop.0.species.pipe.source.0.prob=0.0", "-p",
 				"pop.subpop.0.species.pipe.source.1.prob=0.0" };
 
 		// 2- Initialize the folds variable's value
 		int seeds = 0;
-		int generation = 30;
-		double crossoverRate = 1.0;
-		double mutationRate = 1.0;
+		int generations = 51;
+		int individuals = 1024;
+		double crossoverRate = 0.9;
+		double mutationRate = 0.1;
 
 		
 		// 3- Start the main process of the program
@@ -39,7 +40,7 @@ public class SymbolicRegressionMain {
 		for (int i = 0; i < jobs; i++) {
 
 			// Do NOT forget the parameters value goes here
-			passParameters(params, seeds, generation, crossoverRate, mutationRate);
+			passParameters(params, seeds, generations, individuals, crossoverRate, mutationRate);
 
 			// Construct and initialise a new EvolutionState object
 			EvolutionState state = Evolve.possiblyRestoreFromCheckpoint(params);
@@ -91,11 +92,13 @@ public class SymbolicRegressionMain {
 
 	}
 
-	private static void passParameters(String[] params, int seeds, int generation, double crossoverRate,
-			double mutationRate) {
+	private static void passParameters(String[] params, int seeds, int generations, double individuals,
+			double crossoverRate, double mutationRate) {
+		
 		params[3] = "seed.0=" + seeds;
-		params[7] = "generations=" + generation;
-		params[9] = "pop.subpop.0.species.pipe.source.0.prob=" + crossoverRate;
-		params[11] = "pop.subpop.0.species.pipe.source.1.prob=" + mutationRate;
+		params[7] = "generations=" + generations;
+		params[9] = "pop.subpop.0.size=" + individuals;
+		params[11] = "pop.subpop.0.species.pipe.source.0.prob=" + crossoverRate;
+		params[13] = "pop.subpop.0.species.pipe.source.1.prob=" + mutationRate;
 	}
 }
