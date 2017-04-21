@@ -17,7 +17,7 @@ public class SymbolicRegressionMain {
 
 	/**
 	 * The main method that starts and controls the main flow of the program
-	 * 
+	 *
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -32,15 +32,15 @@ public class SymbolicRegressionMain {
 		int generations = 51;
 		int individuals = 1024;
 		double crossoverRate = 0.9;
-		double mutationRate = 0.1;
+		double reproductionRate = 0.1;
 
-		
+
 		// 3- Start the main process of the program
 		int jobs = 1;
 		for (int i = 0; i < jobs; i++) {
 
 			// Do NOT forget the parameters value goes here
-			passParameters(params, seeds, generations, individuals, crossoverRate, mutationRate);
+			passParameters(params, seeds, generations, individuals, crossoverRate, reproductionRate);
 
 			// Construct and initialise a new EvolutionState object
 			EvolutionState state = Evolve.possiblyRestoreFromCheckpoint(params);
@@ -93,12 +93,12 @@ public class SymbolicRegressionMain {
 	}
 
 	private static void passParameters(String[] params, int seeds, int generations, double individuals,
-			double crossoverRate, double mutationRate) {
-		
+			double crossoverRate, double reproductionRate) {
+
 		params[3] = "seed.0=" + seeds;
 		params[7] = "generations=" + generations;
 		params[9] = "pop.subpop.0.size=" + individuals;
 		params[11] = "pop.subpop.0.species.pipe.source.0.prob=" + crossoverRate;
-		params[13] = "pop.subpop.0.species.pipe.source.1.prob=" + mutationRate;
+		params[13] = "pop.subpop.0.species.pipe.source.1.prob=" + reproductionRate;
 	}
 }
