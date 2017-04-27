@@ -1,4 +1,4 @@
-package app.tutorial4;
+package app.generator;
 
 import ec.EvolutionState;
 import ec.Evolve;
@@ -7,7 +7,7 @@ import ec.simple.SimpleStatistics;
 import ec.util.MersenneTwisterFast;
 import ec.util.ParameterDatabase;
 
-public class SymbolicRegressionMain {
+public class GeneratorClient {
 
 	/**
 	 * Field Declarations
