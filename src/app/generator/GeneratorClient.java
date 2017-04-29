@@ -29,14 +29,14 @@ public class GeneratorClient {
 
 		// 2- Initialize the folds variable's value
 		int seeds = 0;
-		int generations = 51;
+		int generations = 510;
 		int individuals = 1024;
 		double crossoverRate = 0.9;
 		double reproductionRate = 0.1;
 
 
 		// 3- Start the main process of the program
-		int jobs = 1;
+		int jobs = 5;
 		for (int i = 0; i < jobs; i++) {
 
 			// Do NOT forget the parameters value goes here
