@@ -5,5 +5,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ECJ23"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/apache commons"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jalen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jalen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jamm"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
